@@ -10,11 +10,11 @@ I want to be able to register
   Scenario: Register for the waiting list online
     Given I am on "/tilmeldingsformular"
     When I fill in the following: 
-        | Elevens navn | Svend Aage Thomsen |
+        | formfield_14 | Svend Aage Thomsen |
       And I press "Send"
     Then I should see "Udfyld venligst elevens navn."
 
   Scenario: See subjects
     Given I am on "/linjer"
-    Then I should see "Atletik"
+    Then I should see "Linjer"
 
