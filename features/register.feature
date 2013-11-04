@@ -14,7 +14,3 @@ I want to be able to register
       And I press "Send"
     Then I should see "Udfyld venligst elevens navn."
 
-  Scenario: See subjects
-    Given I am on "/linjer"
-    Then I should see "Linjer"
-
