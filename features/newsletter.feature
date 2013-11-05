@@ -10,7 +10,7 @@ I want to be able to sign up for the newsletter
   Scenario: Register for the newsletter
     Given I am on "/nyhedsbrev"
     When I fill in the following: 
-        | email | webmaster@vih.dk |
+        | Email Address | webmaster@vih.dk |
       And I press "Tilmeld"
     Then I should see "Du er nu tilmeldt nyhedsbrevet."
 

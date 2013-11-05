@@ -5,6 +5,6 @@ default:
     Behat\MinkExtension\Extension:
       goutte: ~
       selenium2: ~
-      base_url: 'http://vies.dk'
+      base_url: 'http://dev.vies.dk'
     Drupal\DrupalExtension\Extension:
       blackbox: ~
