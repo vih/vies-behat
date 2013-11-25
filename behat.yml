@@ -15,8 +15,6 @@ default:
       javascript_session: 'selenium2'
     Drupal\DrupalExtension\Extension:
       blackbox: ~
-      drush:
-        alias: self
       region_map:
         content: "#content"
 imports:
